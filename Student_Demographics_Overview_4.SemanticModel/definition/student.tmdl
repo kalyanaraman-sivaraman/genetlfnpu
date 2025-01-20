@@ -1,51 +1,51 @@
 table student
-	lineageTag: 9c99151a-f8e4-4dab-9f27-a4efd1862ff4
+	lineageTag: b1f0ad95-7158-48ca-b152-27fc10b382da
 
 	column 'Student ID'
 		dataType: string
-		lineageTag: 903df890-f530-4048-991c-09889fe3baf9
+		lineageTag: ce89ce7d-af35-40d7-8183-94021de1590e
 		summarizeBy: none
 		sourceColumn: Student ID
 		annotation SummarizationSetBy = Automatic
 
 	column 'Course ID'
 		dataType: string
-		lineageTag: f0c35e1f-70de-4114-adae-5032f0fe6473
+		lineageTag: c8691705-3e45-4590-9c06-148acca8a540
 		summarizeBy: none
 		sourceColumn: Course ID
 		annotation SummarizationSetBy = Automatic
 
 	column 'code (student)'
 		dataType: string
-		lineageTag: 0f88c2e4-21ef-4478-92e6-281c68c66b3e
+		lineageTag: 5f55dd0d-0cdd-42e7-a14a-912e4aefcee1
 		summarizeBy: none
 		sourceColumn: code (student)
 		annotation SummarizationSetBy = Automatic
 
 	column 'Student Name'
 		dataType: string
-		lineageTag: 471d870e-7aa5-4d18-a8ae-3c961d91b155
+		lineageTag: 52f29ac7-2f62-45f7-94ab-858b6122f4bd
 		summarizeBy: none
 		sourceColumn: Student Name
 		annotation SummarizationSetBy = Automatic
 
 	column 'Attendance Percentage'
 		dataType: int64
-		lineageTag: 1821fa34-200e-42e4-a904-d0361e0ef249
+		lineageTag: 0784b6be-3809-4ec7-bfa3-f7d4ee2ad280
 		summarizeBy: none
 		sourceColumn: Attendance Percentage
 		annotation SummarizationSetBy = Automatic
 
 	column Gender
 		dataType: string
-		lineageTag: 0f67a026-e632-4176-bc8f-ca06e39a7e63
+		lineageTag: 72da057d-5b3c-4541-911c-533127aa660d
 		summarizeBy: none
 		sourceColumn: Gender
 		annotation SummarizationSetBy = Automatic
 
 	column CGPA
 		dataType: double
-		lineageTag: 3f500469-5f6c-4b17-98d7-2977c7b72f14
+		lineageTag: cd30f162-456f-41d2-92e8-61b2fd949b3c
 		summarizeBy: none
 		sourceColumn: CGPA
 		annotation SummarizationSetBy = Automatic

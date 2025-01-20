@@ -1,35 +1,35 @@
 table Measure
-    lineageTag: abe68626-2de0-4d2e-b4c4-ab0c9fc0c625
+    lineageTag: 2ea89df5-99da-48b6-85d0-03ebb5443ab6
 
     measure 'Student count' =
 
-            Var A = COUNTROWS(VALUES(student[Student ID]))
+            Var A = DISTINCTCOUNT(student[Student ID])
             return A+0 
-        lineageTag: 9d44c07a-6aa5-44e8-a723-4d9f564e9828
+        lineageTag: d79827a4-71dc-4289-9f55-a3064f5a46a4
 
     measure 'Tutors count' =
 
-            Var A = DISTINCTCOUNT([tutor_id])
+            Var A = DISTINCTCOUNT('tutor'[tutor_id])
             return A+0 
-        lineageTag: 135723ef-c261-402f-90a5-80db87efa2b4
+        lineageTag: 3c62607e-d906-4a05-875d-6d22c13feab9
 
     measure 'Course offered' =
 
             Var A = DISTINCTCOUNT('course'[Course id])
             return A+0
-        lineageTag: b57f786e-32a9-4552-90b3-97b1ba769853
+        lineageTag: 0a10d58f-247f-4236-9a4c-e8275a878d39
 
     measure 'Avg Attendance %' =
 
-            Var A = AVERAGE([Attendance Percentage])
+            Var A = AVERAGE(student[Attendance Percentage])
             return A+0 
-        lineageTag: a5c14906-d1ad-436e-86d1-7b1d4f9a15a3
+        lineageTag: 25dcb1ef-91a4-4068-b4b3-cb8b5ffd082b
 
     measure 'Avg credits %' =
 
-            Var A = AVERAGE([credits])
+            Var A = AVERAGE(course[credits])
             return A+0 
-        lineageTag: e1e8cb30-4a7c-4b5b-8bc9-3a7f5e563496
+        lineageTag: 7588ae16-d8a3-47f9-ba4a-c18629071832
     column Column
         dataType: double
         formatString: #,0.00%;-#,0.00%;#,0.00%
@@ -47,4 +47,3 @@ table Measure
     annotation PBI_Id = 35e43472b79c47efb9bf240e6d624b06
     
     annotation 436ba87b-9c83-4389-a31b-ebd06a36be98 = {"Expression":""}
-    

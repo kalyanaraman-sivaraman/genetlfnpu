@@ -1,37 +1,37 @@
 table course
-	lineageTag: 8994dd9d-6c96-4b57-87f3-b23e16c7ef7a
+	lineageTag: fb360210-1598-4a1d-9ec7-f8843200e9bf
 
 	column 'Course id (course)'
 		dataType: string
-		lineageTag: 6fa6d84f-7812-4cdc-82ba-230efe5afc32
+		lineageTag: 879656be-56d4-40ab-9c51-243a174c306a
 		summarizeBy: none
 		sourceColumn: Course id (course)
 		annotation SummarizationSetBy = Automatic
 
 	column code
 		dataType: string
-		lineageTag: e425a000-17f0-46b1-a630-2179945ae069
+		lineageTag: 1ae9e614-87ff-4523-881a-ec0d6ed35b61
 		summarizeBy: none
 		sourceColumn: code
 		annotation SummarizationSetBy = Automatic
 
 	column credits
 		dataType: int64
-		lineageTag: b873299a-3565-4d30-a8c6-ea834828d11d
+		lineageTag: 9b6afb30-521f-4bcf-a475-d3119db40338
 		summarizeBy: none
 		sourceColumn: credits
 		annotation SummarizationSetBy = Automatic
 
 	column level
 		dataType: string
-		lineageTag: b6c59c1f-8eba-4d25-938d-452483bdb670
+		lineageTag: bec0a33b-50e7-45e1-a01d-709a77fb659a
 		summarizeBy: none
 		sourceColumn: level
 		annotation SummarizationSetBy = Automatic
 
 	column Occupancy
 		dataType: int64
-		lineageTag: 7fdc25a3-6faa-4f01-be30-fd2b5e46e233
+		lineageTag: 92b8721a-ee4b-44f0-80e8-3aa83329858c
 		summarizeBy: none
 		sourceColumn: Occupancy
 		annotation SummarizationSetBy = Automatic

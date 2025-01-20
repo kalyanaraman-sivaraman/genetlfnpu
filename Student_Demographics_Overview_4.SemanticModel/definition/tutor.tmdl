@@ -1,37 +1,37 @@
 table tutor
-	lineageTag: 002a96a7-c216-494d-b543-b7a0794b9196
+	lineageTag: 49e8bda7-114a-406a-89a3-5cd5bd1c2671
 
 	column 'Course id'
 		dataType: string
-		lineageTag: 20c4652c-8414-4f3d-a4e7-309687ffeb56
+		lineageTag: 11e2bcac-ffc0-4a32-b5eb-840adc655282
 		summarizeBy: none
 		sourceColumn: Course id
 		annotation SummarizationSetBy = Automatic
 
 	column tutor_id
 		dataType: string
-		lineageTag: 509b2d85-b87a-4f20-bd01-0029fa72381d
+		lineageTag: f9a11210-f71b-4e49-84d9-9780b05295be
 		summarizeBy: none
 		sourceColumn: tutor_id
 		annotation SummarizationSetBy = Automatic
 
 	column name
 		dataType: string
-		lineageTag: 6d408f7d-3965-431b-be56-789c4ffc4003
+		lineageTag: 48003248-d06b-47e8-a8d5-8f44cda9d5ff
 		summarizeBy: none
 		sourceColumn: name
 		annotation SummarizationSetBy = Automatic
 
 	column gender
 		dataType: string
-		lineageTag: bc857a0b-69fb-4e7e-b5e9-923e24e4711c
+		lineageTag: 923ab381-37a1-4636-aaf2-60e380e06e78
 		summarizeBy: none
 		sourceColumn: gender
 		annotation SummarizationSetBy = Automatic
 
 	column date_of_birth
 		dataType: datetime
-		lineageTag: c5f373a6-813a-4a5d-a087-9c07efbdbbde
+		lineageTag: 714ad13b-b1cb-427d-871c-ce3cb88daf85
 		summarizeBy: none
 		sourceColumn: date_of_birth
 		annotation SummarizationSetBy = Automatic
@@ -39,21 +39,21 @@ table tutor
 
 	column email
 		dataType: string
-		lineageTag: feb04480-6a93-443b-8bed-a47e7ebee447
+		lineageTag: 0e5975f8-b4d3-48d7-bedf-56a064d35b2c
 		summarizeBy: none
 		sourceColumn: email
 		annotation SummarizationSetBy = Automatic
 
 	column department
 		dataType: string
-		lineageTag: 1b3ff058-1dfc-45c9-bca4-d2ffcf9f4259
+		lineageTag: e8146bf0-38d3-4cdd-b8a0-405fdf44e891
 		summarizeBy: none
 		sourceColumn: department
 		annotation SummarizationSetBy = Automatic
 
 	column specialization
 		dataType: string
-		lineageTag: df71d4cc-7b79-4f6c-ae72-2366dfb9bc66
+		lineageTag: 54f2d8d6-bbe4-47c1-8229-747f886e41b6
 		summarizeBy: none
 		sourceColumn: specialization
 		annotation SummarizationSetBy = Automatic
